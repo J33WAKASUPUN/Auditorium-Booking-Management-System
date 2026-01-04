@@ -1,0 +1,57 @@
+{
+  "title": "ඉන්වොයිසි විස්තර",
+  "summary": {
+    "title": "ගෙවීම් සාරාංශය",
+    "issueDate": "නිකුත් කළ දිනය",
+    "dueDate": "ගෙවිය යුතු දිනය",
+    "paidDate": "ගෙවූ දිනය",
+    "status": "තත්ත්වය",
+    "includesExtra": "අමතර ගාස්තු ඇතුළත් වේ",
+    "originalAmount": "මුල් මුදල",
+    "extraCharges": "අමතර ගාස්තු",
+    "total": "මුළු මුදල"
+  },
+  "booking": {
+    "title": "වෙන්කිරීමේ තොරතුරු",
+    "id": "වෙන්කිරීමේ අංකය",
+    "client": "සේවාදායකයාගේ නම",
+    "auditorium": "ශ්‍රවණාගාරය",
+    "eventDate": "උත්සව දිනය",
+    "attendees": "සහභාගිවන්නන්",
+    "purpose": "අරමුණ"
+  },
+  "contact": {
+    "title": "සම්බන්ධතා තොරතුරු",
+    "org": "ආයතනය",
+    "phone": "දුරකථන",
+    "mobile": "ජංගම දුරකථන",
+    "email": "විද්‍යුත් තැපෑල",
+    "address": "ලිපිනය"
+  },
+  "payment": {
+    "title": "ගෙවීම් විස්තර",
+    "method": "ගෙවීම් ක්‍රමය",
+    "reference": "යොමු අංකය",
+    "bank": "බැංකුවේ නම",
+    "cheque": "චෙක්පත් අංකය",
+    "date": "ගනුදෙනු දිනය",
+    "notes": "සටහන්"
+  },
+  "audit": {
+    "title": "විගණන මාර්ගය",
+    "created": "සාදන ලද්දේ",
+    "confirmed": "තහවුරු කළේ",
+    "createdOn": "සාදන ලද දිනය"
+  },
+  "methods": {
+    "bank_transfer": "බැංකු හුවමාරුව",
+    "cash": "මුදල්",
+    "cheque": "චෙක්පත්",
+    "other": "වෙනත්"
+  },
+  "extraCharges": {
+    "title": "අමතර ගාස්තු",
+    "addedBy": "එකතු කළේ",
+    "totalExtra": "මුළු අමතර ගාස්තු"
+  }
+}

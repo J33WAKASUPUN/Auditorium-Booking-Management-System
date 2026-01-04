@@ -1,0 +1,35 @@
+{
+  "title": "Payments & Invoices",
+  "subtitle": "Manage payment records and invoices",
+  "refresh": "Refresh",
+  "searchPlaceholder": "Search by invoice number or client name...",
+  "filterByStatus": "Filter by Status",
+  "allStatuses": "All Statuses",
+  "view": "View",
+  "refund": "Refund",
+  "noInvoices": "No invoices found",
+  "showing": "Showing {{count}} of {{total}} invoices",
+  "table": {
+    "invoiceNo": "Invoice No",
+    "client": "Client",
+    "auditorium": "Auditorium",
+    "eventDate": "Event Date",
+    "amount": "Amount",
+    "status": "Status",
+    "paymentDate": "Payment Date",
+    "actions": "Actions",
+    "extra": "extra"
+  },
+  "toasts": {
+    "fetchError": "Failed to load invoices"
+  },
+
+  "filterByHall": "Filter by Hall",
+  "allHalls": "All Halls",
+  "actions": {
+    "view": "View Details",
+    "viewExtra": "View Extra Charges",
+    "addCharge": "Add Extra Charge",
+    "refund": "Process Refund"
+  }
+}

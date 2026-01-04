@@ -1,0 +1,44 @@
+{
+  "approveTitle": "Approve Booking",
+  "cancelTitle": "Cancel Approval",
+  "approveDesc": "Confirm final approval for this booking",
+  "cancelDesc": "Provide a reason for cancelling this approval",
+  "details": {
+    "title": "Booking Details",
+    "id": "Booking ID",
+    "client": "Client",
+    "org": "Organization",
+    "auditorium": "Auditorium",
+    "dateTime": "Date & Time",
+    "attendees": "Attendees",
+    "purpose": "Purpose",
+    "amount": "Payment Amount"
+  },
+  "cancel": {
+    "noticeTitle": "Important Notice",
+    "noticeDesc": "Cancelling this approval will notify the Admin and Recommendation Officer. The booking will be sent back for review.",
+    "reasonLabel": "Cancellation Reason *",
+    "reasonPlaceholder": "Provide detailed reason (minimum 10 characters)...",
+    "reasonError": "Reason must be at least 10 characters long"
+  },
+  "approve": {
+    "noticeTitle": "Final Approval",
+    "noticeDesc": "This booking will be marked as approved. The Admin, Recommendation Officer, and client will be notified."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "confirmApprove": "Confirm Approval",
+    "confirmCancel": "Cancel Approval",
+    "processing": "Processing..."
+  },
+  "toasts": {
+    "validationError": "Validation Error",
+    "validationDesc": "Please provide a cancellation reason (minimum 10 characters)",
+    "approveSuccessTitle": "Booking Approved",
+    "approveSuccessDesc": "The booking has been successfully approved",
+    "cancelSuccessTitle": "Approval Cancelled",
+    "cancelSuccessDesc": "The booking has been sent back with your feedback",
+    "errorTitle": "Error",
+    "errorDesc": "Failed to process approval"
+  }
+}

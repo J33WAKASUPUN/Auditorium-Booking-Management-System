@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Auditorium Booking System Design System
+  Theme: Professional, Accessible, Light Mode Only
+  Palette: Black, White, Slate Gray + Status Colors
+*/
+
+@layer base {
+  :root {
+    /* Core Neutrals - Slate Gray Scale */
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary - Deep Slate */
+    --primary: 222 47% 11%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Light Slate */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    /* Muted - Soft Gray */
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Accent - Subtle Blue Gray */
+    --accent: 214 32% 91%;
+    --accent-foreground: 222 47% 11%;
+
+    /* Status Colors - Accessible Contrast */
+    --status-approved: 142 71% 35%;
+    --status-approved-foreground: 0 0% 100%;
+    --status-pending: 38 92% 45%;
+    --status-pending-foreground: 0 0% 100%;
+    --status-cancelled: 0 72% 51%;
+    --status-cancelled-foreground: 0 0% 100%;
+    --status-draft: 215 16% 47%;
+    --status-draft-foreground: 0 0% 100%;
+    --status-confirmed: 199 89% 38%;
+    --status-confirmed-foreground: 0 0% 100%;
+
+    /* Destructive */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 214 32% 88%;
+    --input: 214 32% 88%;
+    --ring: 222 47% 11%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 222 47% 11%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 20% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 222 47% 11%;
+
+    /* Custom Tokens */
+    --header-height: 4rem;
+    --sidebar-width: 280px;
+    --sidebar-collapsed-width: 72px;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Accessible Focus States */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* High Contrast Text */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-foreground tracking-tight;
+  }
+
+/* Large Touch Targets */
+button:not([role="checkbox"]), 
+a, 
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+select, 
+textarea {
+  @apply min-h-[44px];
+}
+}
+
+@layer components {
+  /* Status Badge Variants */
+  .status-badge {
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium;
+  }
+
+  .status-approved {
+    @apply bg-[hsl(var(--status-approved))] text-[hsl(var(--status-approved-foreground))];
+  }
+
+  .status-pending {
+    @apply bg-[hsl(var(--status-pending))] text-[hsl(var(--status-pending-foreground))];
+  }
+
+  .status-cancelled {
+    @apply bg-[hsl(var(--status-cancelled))] text-[hsl(var(--status-cancelled-foreground))];
+  }
+
+  .status-draft {
+    @apply bg-[hsl(var(--status-draft))] text-[hsl(var(--status-draft-foreground))];
+  }
+
+  .status-confirmed {
+    @apply bg-[hsl(var(--status-confirmed))] text-[hsl(var(--status-confirmed-foreground))];
+  }
+
+  /* Summary Card */
+  .summary-card {
+    @apply bg-card rounded-xl border border-border p-6 shadow-sm transition-shadow hover:shadow-md;
+  }
+
+  .summary-card-value {
+    @apply text-4xl font-bold text-foreground tracking-tight;
+  }
+
+  .summary-card-label {
+    @apply text-lg text-muted-foreground mt-1;
+  }
+
+  /* Accessible Table */
+  .data-table {
+    @apply w-full text-base;
+  }
+
+  .data-table th {
+    @apply text-left font-semibold text-foreground bg-muted/50 px-4 py-4;
+  }
+
+  .data-table td {
+    @apply px-4 py-4 border-t border-border;
+  }
+
+  .data-table tr:hover td {
+    @apply bg-muted/30;
+  }
+
+  /* Progress Stepper */
+  .stepper-step {
+    @apply flex items-center gap-3;
+  }
+
+  .stepper-circle {
+    @apply w-10 h-10 rounded-full flex items-center justify-center text-base font-semibold border-2 transition-colors;
+  }
+
+  .stepper-circle-active {
+    @apply bg-primary text-primary-foreground border-primary;
+  }
+
+  .stepper-circle-completed {
+    @apply bg-[hsl(var(--status-approved))] text-[hsl(var(--status-approved-foreground))] border-[hsl(var(--status-approved))];
+  }
+
+  .stepper-circle-pending {
+    @apply bg-background text-muted-foreground border-border;
+  }
+
+  .stepper-line {
+    @apply flex-1 h-0.5 bg-border;
+  }
+
+  .stepper-line-completed {
+    @apply bg-[hsl(var(--status-approved))];
+  }
+}
+
+@layer utilities {
+  /* Large Text Utility */
+  .text-accessible {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+
+  /* Generous Spacing */
+  .section-padding {
+    @apply px-6 py-8 md:px-8 md:py-10;
+  }
+
+  /* Fade In Animation */
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Slide In Animation */
+  .animate-slide-in {
+    animation: slideIn 0.25s ease-out forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}

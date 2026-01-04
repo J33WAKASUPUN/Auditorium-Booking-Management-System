@@ -1,0 +1,84 @@
+{
+  "newTitle": "New Booking",
+  "editTitle": "Edit Booking",
+  "newDesc": "Create a new auditorium booking request",
+  "editDesc": "Update booking details (only payment pending bookings can be edited)",
+  "step1": "Venue & Time",
+  "step2": "Contact Details",
+  "step3": "Event Details",
+  "step4": "Additional Services",
+  "venue": {
+    "auditorium": "Auditorium",
+    "selectAuditorium": "Select an auditorium",
+    "capacity": "seats",
+    "startDate": "Start Date",
+    "startTime": "Start Time",
+    "endDate": "End Date",
+    "endTime": "End Time",
+    "dueDate": "Payment Due Date",
+    "selectDate": "Select date",
+    "selectTime": "Select time",
+    "venueInfo": "Capacity: {{capacity}} seats"
+  },
+  "contact": {
+    "title": "Contact Person & Organization",
+    "name": "Contact Person Name",
+    "namePlaceholder": "Mr. John Doe",
+    "org": "Organization Name",
+    "orgPlaceholder": "Ministry of Tourism",
+    "designation": "Designation/Position",
+    "designationPlaceholder": "Director General",
+    "phone": "Telephone (Landline)",
+    "mobile": "Mobile",
+    "fax": "Fax (Optional)",
+    "email": "Email (Optional)",
+    "address": "Full Address",
+    "addressPlaceholder": "No. 123, Galle Road, Colombo 03, Sri Lanka"
+  },
+  "event": {
+    "title": "Event Details",
+    "attendees": "Expected Number of Attendees",
+    "capacityError": "Exceeds auditorium capacity of {{capacity}}",
+    "purpose": "Purpose of Booking",
+    "purposePlaceholder": "Annual Technology Conference and Exhibition",
+    "amount": "Payment Amount",
+    "amountHelper": "Total amount to be paid for this booking (in Sri Lankan Rupees)"
+  },
+  "services": {
+    "title": "Additional Services",
+    "additionalTitle": "Services",
+    "vip": "VIP Room",
+    "multimedia": "Multimedia",
+    "ac": "Air Conditioner",
+    "buffet": "Buffet",
+    "sound": "Sound System",
+    "wiredMic": "Wired Microphones",
+    "wirelessMic": "Wireless Microphones (Max 6)",
+    "other": "Other Requirements",
+    "otherPlaceholder": "Any other special requirements or notes..."
+  },
+  "actions": {
+    "saveDraft": "Save as Draft",
+    "update": "Update Booking",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "updating": "Updating..."
+  },
+  "messages": {
+    "cannotEdit": "Cannot Edit",
+    "cannotEditDesc": "This booking cannot be edited after payment confirmation",
+    "loadError": "Failed to load booking data",
+    "updateSuccess": "Booking has been updated successfully",
+    "updateTitle": "Booking Updated",
+    "createSuccess": "Booking created successfully and sent for payment",
+    "draftSuccess": "Booking saved as draft",
+    "successTitle": "Success",
+    "errorTitle": "Error",
+    "loading": "Loading booking data..."
+  },
+  "payment": {
+      "title": "Payment Information",
+      "amount": "Total Booking Amount",
+      "helper": "Enter the final amount after considering all additional services and requirements"
+    }
+}

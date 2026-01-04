@@ -1,0 +1,34 @@
+{
+  "title": "Booking Details",
+  "paymentAmount": "Payment Amount",
+  "eventInfo": "Event Information",
+  "clientName": "Client Name",
+  "organization": "Organization",
+  "auditorium": "Auditorium",
+  "expectedAttendees": "Expected Attendees",
+  "startDate": "Start Date & Time",
+  "endDate": "End Date & Time",
+  "contactInfo": "Contact Information",
+  "designation": "Designation",
+  "telephone": "Telephone",
+  "mobile": "Mobile",
+  "email": "Email",
+  "address": "Address",
+  "eventPurpose": "Event Purpose",
+  "additionalServices": "Additional Services",
+  "services": {
+    "vip": "VIP Room",
+    "multimedia": "Multimedia",
+    "ac": "Air Conditioner",
+    "buffet": "Buffet",
+    "sound": "Sound System",
+    "microphones": "{{count}} Microphones",
+    "wirelessMics": "{{count}} Wireless Mics",
+    "other": "Other Requirements"
+  },
+  "meta": {
+    "bookingDate": "Booking Date",
+    "dueDate": "Due Date",
+    "createdBy": "Created By"
+  }
+}

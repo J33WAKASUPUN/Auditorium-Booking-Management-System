@@ -1,0 +1,28 @@
+{
+  "title": "පැතිකඩ",
+  "accountDetails": "ඔබගේ ගිණුම් සැකසුම් සහ මනාපයන් කළමනාකරණය කරන්න",
+  "userInformation": "පරිශීලක තොරතුරු",
+  "role": "භූමිකාව",
+  "lastLogin": "අවසන් වරට ලොග් වූයේ",
+  "changePassword": "මුරපදය වෙනස් කරන්න",
+  "currentPassword": "වත්මන් මුරපදය",
+  "newPassword": "නව මුරපදය",
+  "confirmPassword": "නව මුරපදය තහවුරු කරන්න",
+  "roles": {
+    "admin": "පරිපාලක",
+    "recommendation": "නිර්දේශ නිලධාරී",
+    "approval": "අනුමත නිලධාරී"
+  },
+  "errors": {
+    "currentPasswordRequired": "වත්මන් මුරපදය අවශ්‍ය වේ",
+    "newPasswordRequired": "නව මුරපදය අවශ්‍ය වේ",
+    "passwordMinLength": "මුරපදය අවම වශයෙන් අක්ෂර 6 ක් විය යුතුය",
+    "confirmPasswordRequired": "කරුණාකර ඔබේ නව මුරපදය තහවුරු කරන්න",
+    "passwordMismatch": "මුරපද ගැලපෙන්නේ නැත",
+    "currentPasswordIncorrect": "ඔබ ඇතුළත් කළ වත්මන් මුරපදය වැරදිය",
+    "newPasswordSameAsCurrent": "නව මුරපදය වත්මන් මුරපදයම විය නොහැක"
+  },
+  "success": {
+    "passwordChanged": "ඔබගේ මුරපදය සාර්ථකව යාවත්කාලීන කරන ලදී"
+  }
+}

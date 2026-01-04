@@ -1,0 +1,58 @@
+{
+  "title": "Bookings Management",
+  "subtitle": "View and manage all bookings",
+  "refresh": "Refresh",
+  "newBooking": "New Booking",
+  "filterByStatus": "Filter by status",
+  "allStatuses": "All Statuses",
+  "showing": "Showing {{count}} of {{total}} bookings",
+  "noBookings": "No bookings found",
+  "allHalls": "All Halls",
+  "table": {
+    "bookingNo": "Booking No",
+    "client": "Client",
+    "org": "Organization",
+    "venue": "Venue",
+    "dateTime": "Date & Time",
+    "status": "Status",
+    "attendees": "Attendees",
+    "actions": "Actions"
+  },
+  "status": {
+    "recommendationCancelled": "Recommendation Cancelled",
+    "approvalCancelled": "Approval Cancelled"
+  },
+  "actions": {
+    "view": "View Details",
+    "edit": "Edit",
+    "cancel": "Cancel Booking",
+    "delete": "Permanent Delete"
+  },
+  "dialog": {
+    "cancelTitle": "Cancel Booking",
+    "cancelDesc": "Please provide a reason for cancelling this booking. This action can be reversed.",
+    "reasonLabel": "Cancellation Reason",
+    "reasonPlaceholder": "Enter reason for cancellation (minimum 10 characters)",
+    "reasonError": "Reason must be at least 10 characters",
+    "keepBooking": "Keep Booking",
+    "cancelling": "Cancelling...",
+    "confirmCancel": "Cancel Booking",
+    "deleteTitle": "Permanent Delete",
+    "deleteDesc": "This will permanently delete this cancelled booking from the database.",
+    "deleteWarning": "This action cannot be undone. The booking record will be completely removed.",
+    "keepRecord": "Keep Record",
+    "deleting": "Deleting...",
+    "confirmDelete": "Permanent Delete"
+  },
+  "toasts": {
+    "fetchError": "Failed to load bookings",
+    "cancelSuccess": "Booking Cancelled",
+    "cancelSuccessDesc": "The booking has been cancelled successfully",
+    "cancelError": "Failed to cancel booking",
+    "deleteSuccess": "Booking Deleted",
+    "deleteSuccessDesc": "The booking has been permanently deleted",
+    "deleteError": "Failed to delete booking",
+    "validationError": "Validation Error",
+    "validationDesc": "Please provide a cancellation reason (minimum 10 characters)"
+  }
+}

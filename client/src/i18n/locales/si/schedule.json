@@ -1,0 +1,58 @@
+{
+  "title": "කාලසටහන සහ වැඩ ප්‍රවාහය",
+  "descriptions": {
+    "admin": "අපේක්ෂිත වෙන්කිරීම් සඳහා ගෙවීම් පරීක්ෂා කර තහවුරු කරන්න",
+    "recommendation": "වෙන්කිරීම් පරීක්ෂා කර ඔබේ නිර්දේශය එක් කරන්න",
+    "approval": "අවසාන අනුමැතිය සඳහා නිර්දේශිත වෙන්කිරීම් පරීක්ෂා කරන්න"
+  },
+  "tabs": {
+    "actionRequired": "ක්‍රියාමාර්ග අවශ්‍යයි",
+    "allProgress": "සියලු ප්‍රගතිය"
+  },
+  "filters": {
+    "filterByStatus": "තත්ත්වය අනුව පෙරන්න",
+    "allStatuses": "සියලුම තත්ත්වයන්"
+  },
+  "attendees": "සහභාගිවන්නන්",
+  "auditoriums": {
+    "1": "ප්‍රධාන ශාලාව",
+    "2": "කුඩා ශාලාව",
+    "3": "සම්මන්ත්‍රණ ශාලාව"
+  },
+  "empty": {
+    "caughtUpTitle": "සියල්ල සම්පූර්ණයි!",
+    "caughtUpDesc": "මේ මොහොතේ අපේක්ෂිත ක්‍රියාමාර්ග නොමැත."
+  },
+  "noBookings": {
+    "title": "වෙන්කිරීම් හමු නොවීය",
+    "description": "තෝරාගත් පෙරහනට ගැලපෙන වෙන්කිරීම් නොමැත."
+  },
+  "status": {
+    "draft": "කෙටුම්පත",
+    "pending_approval": "අනුමැතිය අපේක්ෂාවෙන්",
+    "recommended": "නිර්දේශිත",
+    "approved": "අනුමතයි",
+    "payment_pending": "ගෙවීම් අපේක්ෂිතයි",
+    "payment_confirmed": "ගෙවීම තහවුරු විය",
+    "completed": "සම්පූර්ණයි",
+    "cancelled": "අවලංගුයි",
+    "recommendationCancelled": "නිර්දේශය අවලංගු කළා",
+    "approvalCancelled": "අනුමැතිය අවලංගු කළා"
+  },
+  "cancellation": {
+    "recommendationTitle": "නිර්දේශය අවලංගු කළා",
+    "approvalTitle": "අනුමැතිය අවලංගු කළා"
+  },
+  "actions": {
+    "cancel": "අවලංගු කරන්න",
+    "confirmPayment": "ගෙවීම තහවුරු කරන්න",
+    "addRecommendation": "නිර්දේශය එක් කරන්න",
+    "approveBooking": "වෙන්කිරීම අනුමත කරන්න",
+    "share": "සබැදිය බෙදාගන්න"
+  },
+  "toasts": {
+    "fetchError": "වෙන්කිරීම් පූරණය කිරීමට අසමත් විය",
+    "paymentSuccess": "ගෙවීම තහවුරු කළා",
+    "paymentSuccessDesc": "වෙන්කිරීම් ගෙවීම සාර්ථකව තහවුරු කර ඇත"
+  }
+}

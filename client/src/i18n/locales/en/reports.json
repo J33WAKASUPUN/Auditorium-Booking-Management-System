@@ -1,0 +1,113 @@
+{
+  "title": "Reports",
+  "overview": "Overview for the last",
+  "days": "days",
+  "range": {
+    "7d": "7 Days",
+    "30d": "30 Days",
+    "90d": "90 Days"
+  },
+  "buttons": {
+    "bookings": "Bookings",
+    "invoices": "Invoices",
+    "exporting": "Exporting"
+  },
+  "export": {
+    "toExcel": "Export to Excel",
+    "toPDF": "Export to PDF"
+  },
+  "summary": {
+    "totalBookings": "Total Bookings",
+    "approved": "Approved",
+    "totalRevenue": "Total Revenue",
+    "invoicesPaid": "Invoices Paid",
+    "pendingActions": "Pending Actions",
+    "recommendations": "Recommendations",
+    "approvals": "Approvals",
+    "upcomingEvents": "Upcoming Events",
+    "next30Days": "Next 30 days",
+    "workflowCancellations": "Workflow Cancellations",
+    "recommendationCancelled": "Recommendation",
+    "approvalCancelled": "Approval",
+    "completed": "Completed",
+    "payments": "Payments",
+    "adminCancelled": "Admin",
+    "netRevenue": "Net Revenue",
+    "baseRevenue": "Base Revenue",
+    "extraCharges": "Extra Charges",
+    "pendingPayments": "Pending Payments"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "bookings": "Bookings",
+    "revenue": "Revenue",
+    "utilization": "Utilization"
+  },
+  "charts": {
+    "activity": "Booking & Revenue Activity",
+    "trends": "Trends for selected period",
+    "bookings": "Bookings",
+    "revenueK": "Revenue (K)",
+    "auditoriumDist": "Auditorium Distribution",
+    "bookingsByVenue": "Bookings by venue",
+    "noAuditoriumData": "No auditorium data available",
+    "statusBreakdown": "Status Breakdown",
+    "currentStatuses": "Current booking statuses",
+    "topPerformers": "Top Performing Auditoriums",
+    "mostBooked": "Most booked venues this period",
+    "noData": "No data available",
+    "bookingStatusDist": "Booking Status Distribution",
+    "distByStatus": "Distribution by current status",
+    "noBookingData": "No booking data available",
+    "bookingStats": "Booking Statistics",
+    "detailedCount": "Detailed count by status",
+    "invoiceStatusDist": "Invoice Status Distribution",
+    "paymentStatusOverview": "Payment status overview",
+    "noInvoiceData": "No invoice data available",
+    "revenueBreakdown": "Revenue Breakdown",
+    "financialSummary": "Financial performance summary",
+    "utilizationDetails": "Auditorium Utilization Details",
+    "occupancyRates": "Occupancy rates per hall"
+  },
+  "status": {
+    "approved": "Approved",
+    "paymentPending": "Pending Payment",
+    "recommended": "Recommended",
+    "cancelled": "Cancelled",
+    "completed": "Completed",
+    "paymentConfirmed": "Payment Confirmed",
+    "draft": "Draft",
+    "paid": "Paid",
+    "pending": "Pending",
+    "overdue": "Overdue",
+    "recommendationCancelled": "Recommendation Cancelled",
+    "approvalCancelled": "Approval Cancelled",
+    "adminCancelled": "Admin Cancelled",
+    "refunded": "Refunded"
+  },
+  "labels": {
+    "totalRevenue": "Total Revenue",
+    "pending": "Pending",
+    "invoices": "invoices",
+    "overdue": "Overdue",
+    "totalBookings": "Total Bookings",
+    "utilization": "Utilization",
+    "topHall": "Top Hall",
+    "second": "Second",
+    "third": "Third",
+    "bookings": "bookings",
+    "netRevenue": "Net Revenue",
+    "refunded": "Refunded Amount",
+    "baseRevenue": "Base Revenue",
+    "extraCharges": "Extra Charges",
+    "netRevenueFormula": "(Total Revenue - Refunds)",
+    "invoicesPaid": "invoices paid"
+  },
+  "toasts": {
+    "loadError": "Failed to load analytics data",
+    "exportSuccess": "Export Successful",
+    "exportDesc": "{{type}} report downloaded successfully as {{format}}",
+    "exportFailed": "Export Failed",
+    "exportError": "Failed to export report"
+  }
+}

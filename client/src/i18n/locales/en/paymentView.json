@@ -1,0 +1,57 @@
+{
+  "title": "Invoice Details",
+  "summary": {
+    "title": "Payment Summary",
+    "issueDate": "Issue Date",
+    "dueDate": "Due Date",
+    "paidDate": "Paid Date",
+    "status": "Status",
+    "includesExtra": "Includes extra charges",
+    "originalAmount": "Original Amount",
+    "extraCharges": "Extra Charges",
+    "total": "Total Amount"
+  },
+  "booking": {
+    "title": "Booking Information",
+    "id": "Booking ID",
+    "client": "Client Name",
+    "auditorium": "Auditorium",
+    "eventDate": "Event Date",
+    "attendees": "Attendees",
+    "purpose": "Purpose"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "org": "Organization",
+    "phone": "Telephone",
+    "mobile": "Mobile",
+    "email": "Email",
+    "address": "Address"
+  },
+  "payment": {
+    "title": "Payment Details",
+    "method": "Payment Method",
+    "reference": "Reference Number",
+    "bank": "Bank Name",
+    "cheque": "Cheque Number",
+    "date": "Transaction Date",
+    "notes": "Notes"
+  },
+  "audit": {
+    "title": "Audit Trail",
+    "created": "Created By",
+    "confirmed": "Confirmed By",
+    "createdOn": "Created on"
+  },
+  "methods": {
+    "bank_transfer": "Bank Transfer",
+    "cash": "Cash",
+    "cheque": "Cheque",
+    "other": "Other"
+  },
+  "extraCharges": {
+    "title": "Extra Charges",
+    "addedBy": "Added by",
+    "totalExtra": "Total Extra Charges"
+  }
+}

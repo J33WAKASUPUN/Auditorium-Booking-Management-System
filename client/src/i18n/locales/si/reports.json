@@ -1,0 +1,113 @@
+{
+  "title": "වාර්තා",
+  "overview": "පසුගිය දින",
+  "days": "සඳහා දළ විශ්ලේෂණය",
+  "range": {
+    "7d": "දින 7",
+    "30d": "දින 30",
+    "90d": "දින 90"
+  },
+  "buttons": {
+    "bookings": "වෙන්කිරීම්",
+    "invoices": "ඉන්වොයිසි",
+    "exporting": "නිර්යාත කරමින්"
+  },
+  "export": {
+    "toExcel": "Excel වෙත නිර්යාත කරන්න",
+    "toPDF": "PDF වෙත නිර්යාත කරන්න"
+  },
+  "summary": {
+    "totalBookings": "මුළු වෙන්කිරීම්",
+    "approved": "අනුමත කළ",
+    "totalRevenue": "මුළු ආදායම",
+    "invoicesPaid": "ගෙවූ ඉන්වොයිසි",
+    "pendingActions": "විනිශ්චය බලාපොරොත්තු වන",
+    "recommendations": "නිර්දේශ",
+    "approvals": "අනුමැතිය",
+    "upcomingEvents": "ඉදිරි උත්සව",
+    "next30Days": "ඉදිරි දින 30",
+    "workflowCancellations": "ප්‍රවාහ අවලංගු කිරීම්",
+    "recommendationCancelled": "නිර්දේශය",
+    "approvalCancelled": "අනුමැතිය",
+    "completed": "සම්පූර්ණ",
+    "payments": "ගෙවීම්",
+    "adminCancelled": "පරිපාලක",
+    "netRevenue": "ශුද්ධ ආදායම",
+    "baseRevenue": "මූලික ආදායම",
+    "extraCharges": "අමතර ගාස්තු",
+    "pendingPayments": "පොරොත්තු ගෙවීම්"
+  },
+  "tabs": {
+    "overview": "දළ විශ්ලේෂණය",
+    "bookings": "වෙන්කිරීම්",
+    "revenue": "ආදායම",
+    "utilization": "භාවිතය"
+  },
+  "charts": {
+    "activity": "වෙන්කිරීම් සහ ආදායම් ක්‍රියාකාරකම්",
+    "trends": "තෝරාගත් කාල සීමාව සඳහා ප්‍රවණතා",
+    "bookings": "වෙන්කිරීම්",
+    "revenueK": "ආදායම (K)",
+    "auditoriumDist": "ශ්‍රවණාගාර බෙදා හැරීම",
+    "bookingsByVenue": "ස්ථානය අනුව වෙන්කිරීම්",
+    "noAuditoriumData": "ශ්‍රවණාගාර දත්ත නොමැත",
+    "statusBreakdown": "තත්ත්වය",
+    "currentStatuses": "වත්මන් වෙන්කිරීම් තත්ත්වයන්",
+    "topPerformers": "ඉහළම ක්‍රියාකාරී ශ්‍රවණාගාර",
+    "mostBooked": "මෙම කාල සීමාව තුළ වැඩිපුරම වෙන් කර ඇති ස්ථාන",
+    "noData": "දත්ත නොමැත",
+    "bookingStatusDist": "වෙන්කිරීම් තත්ත්වය බෙදා හැරීම",
+    "distByStatus": "වත්මන් තත්ත්වය අනුව බෙදා හැරීම",
+    "noBookingData": "වෙන්කිරීම් දත්ත නොමැත",
+    "bookingStats": "වෙන්කිරීම් සංඛ්‍යාලේඛන",
+    "detailedCount": "තත්ත්වය අනුව සවිස්තරාත්මක ගණනය",
+    "invoiceStatusDist": "ඉන්වොයිසි තත්ත්වය බෙදා හැරීම",
+    "paymentStatusOverview": "ගෙවීම් තත්ත්වය දළ විශ්ලේෂණය",
+    "noInvoiceData": "ඉන්වොයිසි දත්ත නොමැත",
+    "revenueBreakdown": "ආදායම්",
+    "financialSummary": "මූල්‍ය කාර්ය සාධනය සාරාංශය",
+    "utilizationDetails": "ශ්‍රවණාගාර භාවිත විස්තර",
+    "occupancyRates": "එක් එක් ශාලාව සඳහා භාවිත අනුපාත"
+  },
+  "status": {
+    "approved": "අනුමත විය",
+    "paymentPending": "ගෙවීම් බලාපොරොත්තු වන",
+    "recommended": "නිර්දේශිත",
+    "cancelled": "අවලංගු විය",
+    "completed": "සම්පූර්ණ විය",
+    "draft": "කෙටුම්පත",
+    "paid": "ගෙවන ලදී",
+    "pending": "බලාපොරොත්තු වන",
+    "paymentConfirmed": "අනුමත කළ ආදායම",
+    "overdue": "ප්‍රමාදයි",
+    "recommendationCancelled": "නිර්දේශය අවලංගු කළා",
+    "approvalCancelled": "අනුමැතිය අවලංගු කළා",
+    "adminCancelled": "පරිපාලක අවලංගු",
+    "refunded": "ආපසු ගෙවූ"
+  },
+  "labels": {
+    "totalRevenue": "මුළු ආදායම",
+    "pending": "බලාපොරොත්තු වන",
+    "invoices": "ඉන්වොයිසි",
+    "overdue": "ප්‍රමාදයි",
+    "totalBookings": "මුළු වෙන්කිරීම්",
+    "utilization": "භාවිතය",
+    "topHall": "ඉහළම ශාලාව",
+    "second": "දෙවන",
+    "third": "තෙවන",
+    "bookings": "වෙන්කිරීම්",
+    "netRevenue": "ශුද්ධ ආදායම",
+    "refunded": "ආපසු ගෙවූ මුදල",
+    "baseRevenue": "මූලික ආදායම",
+    "extraCharges": "අමතර ගාස්තු",
+    "netRevenueFormula": "(මුළු ආදායම - ආපසු ගෙවීම්)",
+    "invoicesPaid": "ඉන්වොයිසි ගෙවා ඇත"
+  },
+  "toasts": {
+    "loadError": "විශ්ලේෂණ දත්ත පූරණය කිරීමට අසමත් විය",
+    "exportSuccess": "නිර්යාත කිරීම සාර්ථකයි",
+    "exportDesc": "{{type}} වාර්තාව {{format}} ලෙස සාර්ථකව බාගත කරන ලදී",
+    "exportFailed": "නිර්යාත කිරීම අසාර්ථක විය",
+    "exportError": "වාර්තාව නිර්යාත කිරීමට අසමත් විය"
+  }
+}

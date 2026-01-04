@@ -1,0 +1,38 @@
+{
+  "shareLink": {
+    "title": {
+      "recommendation": "Share for Recommendation",
+      "approval": "Share for Approval"
+    },
+    "description": {
+      "recommendation": "Generate a secure link to share this booking with a Recommendation Officer",
+      "approval": "Generate a secure link to share this booking with an Approval Officer"
+    },
+    "generatePrompt": "Click the button below to generate a shareable link",
+    "generate": "Generate Link",
+    "generating": "Generating...",
+    "url": "Share URL",
+    "expiresAt": "Link expires at:",
+    "note": "Note",
+    "noteRecommendation": "This link can only be accessed by users with Recommendation Officer role.",
+    "noteApproval": "This link can only be accessed by users with Approval Officer role.",
+    "accessing": "Accessing Booking...",
+    "accessingDesc": "Please wait while we verify your access.",
+    "backToSchedule": "Back to Schedule",
+    "errors": {
+      "title": "Access Denied",
+      "invalidToken": "Invalid or missing share link token",
+      "accessFailed": "Failed to access share link"
+    },
+    "toasts": {
+      "generated": "Link Generated",
+      "generatedDesc": "Share link has been generated successfully",
+      "generateError": "Failed to generate share link",
+      "copied": "Link Copied",
+      "copiedDesc": "Share link copied to clipboard",
+      "copyError": "Failed to copy link",
+      "accessSuccess": "Access Granted",
+      "accessSuccessDesc": "You can now view and take action on this booking"
+    }
+  }
+}

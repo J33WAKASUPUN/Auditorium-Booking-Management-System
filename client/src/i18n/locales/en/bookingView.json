@@ -1,0 +1,43 @@
+{
+  "title": "Booking Details",
+  "id": "ID",
+  "cancel": {
+    "title": "Booking Cancelled",
+    "reason": "Reason",
+    "date": "Cancelled on"
+  },
+  "venue": {
+    "title": "Venue & Schedule",
+    "auditorium": "Auditorium",
+    "attendees": "Expected Attendees",
+    "start": "Start Date & Time",
+    "end": "End Date & Time"
+  },
+  "contact": {
+    "title": "Contact Information",
+    "person": "Contact Person",
+    "org": "Organization",
+    "designation": "Designation",
+    "phone": "Telephone",
+    "mobile": "Mobile",
+    "email": "Email",
+    "address": "Address"
+  },
+  "purpose": {
+    "title": "Event Purpose"
+  },
+  "services": {
+    "title": "Additional Services",
+    "vip": "VIP Room",
+    "multimedia": "Multimedia",
+    "ac": "Air Conditioner",
+    "buffet": "Buffet",
+    "sound": "Sound System",
+    "microphones": "{{count}} Microphones",
+    "wirelessMics": "{{count}} Wireless Mics",
+    "other": "Other Requirements"
+  },
+  "footer": {
+    "created": "Created on"
+  }
+}

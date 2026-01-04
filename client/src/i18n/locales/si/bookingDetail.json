@@ -1,0 +1,34 @@
+{
+  "title": "වෙන්කිරීමේ විස්තර",
+  "paymentAmount": "ගෙවීම් මුදල",
+  "eventInfo": "උත්සව තොරතුරු",
+  "clientName": "සේවාදායකයාගේ නම",
+  "organization": "ආයතනය",
+  "auditorium": "ශ්‍රවණාගාරය",
+  "expectedAttendees": "අපේක්ෂිත සහභාගිවන්නන්",
+  "startDate": "ආරම්භක දිනය සහ වේලාව",
+  "endDate": "අවසන් දිනය සහ වේලාව",
+  "contactInfo": "සම්බන්ධතා තොරතුරු",
+  "designation": "තනතුර",
+  "telephone": "දුරකථන",
+  "mobile": "ජංගම දුරකථන",
+  "email": "විද්‍යුත් තැපෑල",
+  "address": "ලිපිනය",
+  "eventPurpose": "උත්සවයේ අරමුණ",
+  "additionalServices": "අමතර සේවා",
+  "services": {
+    "vip": "VIP කාමරය",
+    "multimedia": "බහුමාධ්‍ය (Multimedia)",
+    "ac": "වායු සමීකරණ",
+    "buffet": "බුෆේ",
+    "sound": "ශබ්ද විකාශන පද්ධතිය",
+    "microphones": "මයික්‍රොෆෝන {{count}}",
+    "wirelessMics": "රැහැන් රහිත මයික්‍රොෆෝන {{count}}",
+    "other": "වෙනත් අවශ්‍යතා"
+  },
+  "meta": {
+    "bookingDate": "වෙන්කළ දිනය",
+    "dueDate": "ගෙවිය යුතු දිනය",
+    "createdBy": "සාදන ලද්දේ"
+  }
+}

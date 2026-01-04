@@ -1,0 +1,28 @@
+{
+  "title": "Profile",
+  "accountDetails": "Manage your account settings and preferences",
+  "userInformation": "User Information",
+  "role": "Role",
+  "lastLogin": "Last Login",
+  "changePassword": "Change Password",
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm New Password",
+  "roles": {
+    "admin": "Administrator",
+    "recommendation": "Recommendation Officer",
+    "approval": "Approval Officer"
+  },
+  "errors": {
+    "currentPasswordRequired": "Current password is required",
+    "newPasswordRequired": "New password is required",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "confirmPasswordRequired": "Please confirm your new password",
+    "passwordMismatch": "Passwords do not match",
+    "currentPasswordIncorrect": "The current password you entered is incorrect",
+    "newPasswordSameAsCurrent": "New password cannot be the same as the current password"
+  },
+  "success": {
+    "passwordChanged": "Your password has been updated successfully"
+  }
+}

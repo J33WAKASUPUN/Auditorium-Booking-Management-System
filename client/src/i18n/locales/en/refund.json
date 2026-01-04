@@ -1,0 +1,66 @@
+{
+  "title": "Process Refund",
+  "desc": "Refund payment for cancelled booking. This action cannot be undone.",
+  "invoiceDetails": {
+    "title": "Invoice Summary",
+    "invoiceNo": "Invoice Number",
+    "client": "Client Name",
+    "auditorium": "Auditorium",
+    "eventDate": "Event Date",
+    "totalAmount": "Total Amount"
+  },
+  "warning": {
+    "title": "Important Notice",
+    "desc": "This refund will be processed manually. Please ensure you have physically transferred the funds to the client before confirming this action."
+  },
+  "form": {
+    "amount": {
+      "label": "Refund Amount",
+      "placeholder": "Enter refund amount",
+      "max": "Maximum"
+    },
+    "method": {
+      "label": "Refund Method",
+      "placeholder": "Select refund method",
+      "bank_transfer": "Bank Transfer",
+      "cash": "Cash",
+      "cheque": "Cheque",
+      "other": "Other"
+    },
+    "referenceNumber": {
+      "label": "Reference Number",
+      "placeholder": "Enter transaction reference"
+    },
+    "bankName": {
+      "label": "Bank Name",
+      "placeholder": "Enter bank name"
+    },
+    "transactionDate": {
+      "label": "Transaction Date",
+      "placeholder": "Select transaction date"
+    },
+    "reason": {
+      "label": "Refund Reason",
+      "placeholder": "Enter reason for refund (required)"
+    },
+    "notes": {
+      "label": "Additional Notes (Optional)",
+      "placeholder": "Add any additional notes about this refund"
+    }
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "confirm": "Process Refund",
+    "processing": "Processing..."
+  },
+  "toasts": {
+    "validation": "Validation Error",
+    "validationDesc": "Please fill in all required fields",
+    "invalidAmount": "Invalid Amount",
+    "invalidAmountDesc": "Refund amount must be between 0 and the invoice amount",
+    "successTitle": "Refund Processed",
+    "successDesc": "Refund of Rs. {{amount}} has been processed successfully",
+    "errorTitle": "Refund Failed",
+    "errorDesc": "Failed to process refund. Please try again"
+  }
+}

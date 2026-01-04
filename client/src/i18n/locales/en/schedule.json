@@ -1,0 +1,58 @@
+{
+  "title": "Schedule & Workflow",
+  "descriptions": {
+    "admin": "Review and confirm payments for pending bookings",
+    "recommendation": "Review bookings and add your recommendation",
+    "approval": "Review recommended bookings for final approval"
+  },
+  "tabs": {
+    "actionRequired": "Action Required",
+    "allProgress": "All Progress"
+  },
+  "filters": {
+    "filterByStatus": "Filter by status",
+    "allStatuses": "All Statuses"
+  },
+  "attendees": "Attendees",
+  "auditoriums": {
+    "1": "Main Auditorium",
+    "2": "Mini Auditorium",
+    "3": "Conference Hall"
+  },
+  "empty": {
+    "caughtUpTitle": "All Caught Up!",
+    "caughtUpDesc": "No pending actions at the moment."
+  },
+  "noBookings": {
+    "title": "No Bookings Found",
+    "description": "No bookings match the selected filter."
+  },
+  "status": {
+    "draft": "Draft",
+    "pending_approval": "Pending Approval",
+    "recommended": "Recommended",
+    "approved": "Approved",
+    "payment_pending": "Payment Pending",
+    "payment_confirmed": "Payment Confirmed",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "recommendationCancelled": "Recommendation Cancelled",
+    "approvalCancelled": "Approval Cancelled"
+  },
+  "cancellation": {
+    "recommendationTitle": "Recommendation Cancelled",
+    "approvalTitle": "Approval Cancelled"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "confirmPayment": "Confirm Payment",
+    "addRecommendation": "Add Recommendation",
+    "approveBooking": "Approve Booking",
+    "share": "Share Link"
+  },
+  "toasts": {
+    "fetchError": "Failed to load bookings",
+    "paymentSuccess": "Payment Confirmed",
+    "paymentSuccessDesc": "Booking payment has been confirmed successfully"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "ගෙවීම තහවුරු කරන්න",
+  "desc": "මෙම වෙන්කිරීම සඳහා ගෙවීම් විස්තර සටහන් කරන්න",
+  "bookingDetails": {
+    "title": "වෙන්කිරීමේ විස්තර",
+    "client": "සේවාදායකයා",
+    "auditorium": "ශ්‍රවණාගාරය",
+    "dateTime": "දිනය සහ වේලාව",
+    "attendees": "සහභාගිවන්නන්",
+    "totalAmount": "මුළු මුදල"
+  },
+  "form": {
+    "method": {
+      "label": "ගෙවීම් ක්‍රමය *",
+      "placeholder": "ගෙවීම් ක්‍රමය තෝරන්න",
+      "bank_transfer": "බැංකු හුවමාරුව",
+      "cash": "මුදල්",
+      "cheque": "චෙක්පත්",
+      "other": "වෙනත්"
+    },
+    "reference": {
+      "label": "යොමු අංකය",
+      "placeholder": "TXN123456789"
+    },
+    "bankName": {
+      "label": "බැංකුවේ නම",
+      "placeholder": "ලංකා බැංකුව",
+      "placeholderEn": "Bank of Ceylon"
+    },
+    "chequeNumber": {
+      "label": "චෙක්පත් අංකය",
+      "placeholder": "CHQ001234"
+    },
+    "date": {
+      "label": "ගනුදෙනු දිනය *",
+      "placeholder": "ගනුදෙනු දිනය තෝරන්න"
+    },
+    "notes": {
+      "label": "සටහන් (විකල්ප)",
+      "placeholder": "අමතර ගෙවීම් විස්තර මෙහි ඇතුළත් කරන්න..."
+    }
+  },
+  "buttons": {
+    "cancel": "අවලංගු කරන්න",
+    "confirming": "තහවුරු කරමින්...",
+    "confirm": "ගෙවීම තහවුරු කරන්න"
+  },
+  "toasts": {
+    "validation": "වලංගු කිරීමේ දෝෂයක්",
+    "validationDesc": "කරුණාකර අවශ්‍ය සියලුම ක්ෂේත්‍ර පුරවන්න",
+    "successTitle": "ගෙවීම තහවුරු විය",
+    "successDesc": "රු. {{amount}} ක ගෙවීම සාර්ථකව තහවුරු කරන ලදී",
+    "errorTitle": "දෝෂයක්",
+    "errorDesc": "ගෙවීම තහවුරු කිරීමට අසමත් විය"
+  }
+}

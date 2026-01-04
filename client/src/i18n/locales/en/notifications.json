@@ -1,0 +1,13 @@
+{
+  "title": "Notifications",
+  "markAllRead": "Mark all read",
+  "loading": "Loading...",
+  "empty": "No notifications",
+  "close": "Close",
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{{count}}m ago",
+    "hoursAgo": "{{count}}h ago",
+    "daysAgo": "{{count}}d ago"
+  }
+}

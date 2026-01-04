@@ -1,0 +1,55 @@
+{
+  "title": "Confirm Payment",
+  "desc": "Record payment details for this booking",
+  "bookingDetails": {
+    "title": "Booking Details",
+    "client": "Client",
+    "auditorium": "Auditorium",
+    "dateTime": "Date & Time",
+    "attendees": "Attendees",
+    "totalAmount": "Total Amount"
+  },
+  "form": {
+    "method": {
+      "label": "Payment Method *",
+      "placeholder": "Select payment method",
+      "bank_transfer": "Bank Transfer",
+      "cash": "Cash",
+      "cheque": "Cheque",
+      "other": "Other"
+    },
+    "reference": {
+      "label": "Reference Number",
+      "placeholder": "TXN123456789"
+    },
+    "bankName": {
+      "label": "Bank Name",
+      "placeholder": "Bank of Ceylon"
+    },
+    "chequeNumber": {
+      "label": "Cheque Number",
+      "placeholder": "CHQ001234"
+    },
+    "date": {
+      "label": "Transaction Date *",
+      "placeholder": "Select transaction date"
+    },
+    "notes": {
+      "label": "Notes (Optional)",
+      "placeholder": "Add any additional payment details..."
+    }
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "confirming": "Confirming...",
+    "confirm": "Confirm Payment"
+  },
+  "toasts": {
+    "validation": "Validation Error",
+    "validationDesc": "Please fill in all required fields",
+    "successTitle": "Payment Confirmed",
+    "successDesc": "Payment of Rs. {{amount}} confirmed successfully",
+    "errorTitle": "Error",
+    "errorDesc": "Failed to confirm payment"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "welcome": "Welcome back",
+  "subtitle": "Sign in to your account to continue managing bookings.",
+  "appName": "Auditorium Manager",
+  "form": {
+    "emailLabel": "Email address",
+    "emailPlaceholder": "admin@auditorium.gov.lk",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Sign in",
+    "signingIn": "Signing in..."
+  },
+  "footer": {
+    "privacy": "Privacy Policy",
+    "poweredBy": "Powered by",
+    "contact": "Contact us:"
+  },
+  "hero": {
+    "titleLine1": "Streamline",
+    "titleLine2": "Your Venue",
+    "titleHighlight": "Management",
+    "desc": "Efficient booking, seamless approvals, and real-time insights all in one powerful platform.",
+    "features": {
+      "scheduling": "Smart Scheduling",
+      "schedulingDesc": "Automated conflict detection and booking optimization",
+      "analytics": "Analytics",
+      "analyticsDesc": "Real-time insights into utilization and revenue",
+      "workflow": "Secure Workflow",
+      "workflowDesc": "Role-based access and approval management",
+      "collab": "Collaboration",
+      "collabDesc": "Multi-user access with real-time notifications"
+    }
+  },
+  "validation": {
+    "emailInvalid": "Invalid email address",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required"
+  },
+  "errors": {
+    "authFailed": "Authentication failed. Please check your credentials."
+  }
+}

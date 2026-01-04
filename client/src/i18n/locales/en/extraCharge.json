@@ -1,0 +1,37 @@
+{
+  "title": "Add Extra Charge",
+  "desc": "Add additional charges for damages, extra services, or other costs after event completion",
+  "invoiceDetails": {
+    "title": "Invoice Details",
+    "invoiceNo": "Invoice Number",
+    "client": "Client",
+    "auditorium": "Auditorium",
+    "originalAmount": "Original Amount",
+    "previousCharges": "Previous Extra Charges",
+    "currentTotal": "Current Total"
+  },
+  "warning": {
+    "title": "Important Notice",
+    "desc": "Extra charges will be added to the invoice. The client will be notified about this additional charge."
+  },
+  "form": {
+    "amount": "Charge Amount",
+    "description": "Description",
+    "descPlaceholder": "e.g., Equipment damage - Broken microphone",
+    "descHelper": "Briefly describe the reason for this charge",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Any additional details about this charge...",
+    "newTotal": "New Total Amount",
+    "adding": "Adding...",
+    "addCharge": "Add Charge"
+  },
+  "toasts": {
+    "validation": "Validation Error",
+    "validationDesc": "Please enter a valid amount",
+    "descRequired": "Please provide a description for this charge",
+    "successTitle": "Extra Charge Added",
+    "successDesc": "Rs. {{amount}} has been added to the invoice",
+    "errorTitle": "Failed to Add Charge",
+    "errorDesc": "Could not add extra charge. Please try again."
+  }
+}

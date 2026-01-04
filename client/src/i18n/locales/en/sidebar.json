@@ -1,0 +1,20 @@
+{
+  "title": "Auditorium Booking",
+  "nav": {
+    "dashboard": "Dashboard",
+    "newBooking": "New Booking",
+    "bookings": "Bookings",
+    "schedule": "Schedule",
+    "calendar": "Calendar",
+    "payments": "Payments",
+    "reports": "Reports",
+    "profile": "Profile"
+  },
+  "user": "User",
+  "logout": {
+    "title": "Sign Out",
+    "desc": "Are you sure you want to sign out? You will need to log in again to access your account.",
+    "cancel": "Cancel",
+    "confirm": "Sign Out"
+  }
+}
