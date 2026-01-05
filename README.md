@@ -1,8 +1,8 @@
-# Auditorium-Booking-Management-System-Complete# Auditorium Booking Management System
+# Auditorium Booking Management System
 
 A comprehensive full-stack web application for managing auditorium bookings with real-time notifications, multi-stage approval workflow, and bilingual support (English & Sinhala).
 
-![Application Screenshot](./assets/screenshot.png)
+![Application Screenshot](https://github.com/Innovior-Developers/Auditorium-Booking-Management-System/blob/main/assests/screenshot.png)
 
 ---
 
