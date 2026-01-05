@@ -225,7 +225,7 @@ Auditorium-Booking-Management-System/
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Innovior-Developers/Auditorium-Booking-Management-System.git
+git clone https://github.com/J33WAKASUPUN/Auditorium-Booking-Management-System.git
 cd Auditorium-Booking-Management-System
 ```
 
@@ -368,7 +368,7 @@ npm run dev
 ## 🌐 Deployment
 
 ### **Production URLs**
-- **Frontend**: https://auditorium-booking-app-t92f.onrender.com
+- **Frontend**: https://auditorium.manager.innovior.lk/
 - **Backend**: https://auditorium-manager.duckdns.org/api/v1
 
 ### **Docker Deployment**
@@ -548,7 +548,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 For issues, questions, or feature requests:
 
 - **Email**: dev@innovior.lk
-- **GitHub Issues**: [Create an Issue](https://github.com/Innovior-Developers/Auditorium-Booking-Management-System/issues)
+- **GitHub Issues**: [Create an Issue](https://github.com/J33WAKASUPUN/Auditorium-Booking-Management-System/issues)
 - **Documentation**: See [API Docs](https://auditorium-manager.duckdns.org/api/v1/docs)
 
 ---
